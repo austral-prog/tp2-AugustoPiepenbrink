@@ -10,5 +10,5 @@ def change():
     vuelto = int(money - expense)
     print(vuelto)
     print("Centavos:")
-    centavos = int((money - expense - vuelto) * 100)
+    centavos = int(money * 100 - expense * 100 - vuelto * 100)
     print(centavos)
